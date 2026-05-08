@@ -1,0 +1,18 @@
+{
+  "id": "national_id_v1",
+  "label": "National ID",
+  "type": "national_id",
+  "expectedAspect": {
+    "min": 1.45,
+    "max": 1.75,
+    "target": 1.58
+  },
+  "sides": {
+    "front": {
+      "file": "front.jpg"
+    },
+    "back": {
+      "file": "back.jpg"
+    }
+  }
+}

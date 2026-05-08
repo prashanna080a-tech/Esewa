@@ -31,6 +31,16 @@ The unit suite uses synthetic image fixtures, so no real KYC documents or person
 
 All document frames stay in the browser. The app performs no OCR, extracts no PII, sends no telemetry, and uploads no image data.
 
+## Document Templates
+
+Document template samples (for validity and side classification) live under `assets/templates/`.
+
+- National ID templates: `assets/templates/national_id/`
+- Expected files:
+  - `assets/templates/national_id/front.jpg`
+  - `assets/templates/national_id/back.jpg`
+  - `assets/templates/national_id/template.json`
+
 ## Quality Checks
 
 - **Blur:** Laplacian variance over grayscale luminance.
